@@ -1,0 +1,104 @@
+
+@media ( max-width: 1024px) {
+
+
+
+    /*General*/
+
+    h2{
+        font-size: 2rem;
+    }
+
+    /* Hero */
+ 
+        .hero_img_arriba {
+        width: 30rem;
+        height: auto;
+        left: 50%;
+        transform: translateX(-50%);
+        }
+
+
+    /* Bodega */
+
+    .bodega_img_1{
+       display: none;
+    }
+
+    .bodega_img_2{
+        display: normal;
+    }
+
+    #Bodega img{
+        width: auto;
+        height: auto;
+        overflow: hidden;
+    }
+
+ 
+    /*Vinos*/
+
+    #Vinos img{
+        width: 100%;
+        height: auto;
+    }
+
+   #Vinos p {
+        margin: 0.5rem 1rem 0.5rem 0rem;
+        font-size: 1rem;
+    }
+    
+
+    #Vinos h2{
+    font-size: 3.5rem;
+    padding-left: 1.5rem;
+    }
+    
+
+
+    /*Viñedos*/
+
+    #Viñedos div {
+    padding-top: 4rem;
+    padding-left: 1.5rem;
+    padding-right: 3rem;
+    padding-bottom: 2rem;
+    max-width: auto;
+
+    }
+
+    #Viñedos p{
+        font-size: 1rem;
+    }
+    #Viñedos img{
+        width: 50%;
+        height: auto;
+    }
+
+
+    /*Contacto*/
+
+    #Contacto{
+    margin-right: 1.5rem;
+    }
+
+    #Contacto img{
+    max-width: 50%;
+    }
+
+    .contacto_contenedor_form{
+    width: 50%;
+    }
+    
+    .contacto_form_campo{
+        max-width: 50%;
+    }
+
+    form input{
+        max-width: 100%;
+        
+    }
+
+    
+
+}
